@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
     "storybook": "start-storybook -p 9001 -c web/.storybook",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "mobile": "node node_modules/react-native/local-cli/cli.js start"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,8 @@
     "react": "^15.5.4",
     "react-native-web": "^0.0.94",
     "url-loader": "0.5.7",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-native": "0.40.0"
   },
   "devDependencies": {
     "@kadira/storybook": "2.5.1",

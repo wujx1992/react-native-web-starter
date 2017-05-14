@@ -1,5 +1,3 @@
-![React Native Web](/app/assets/react-native-web.png "Logo React Native Web")
-
 # React Native for Web Starter
 
 React Native for Web Starter aims at:
@@ -19,7 +17,7 @@ This repo is an attempt to make it easier for anyone to launch, experiment and p
 
 ### Install
 ```
-git clone https://github.com/grabcode/react-native-web-starter.git projectname
+git clone https://github.com/wujx1992/react-native-web-starter.git projectname
 cd projectname
 rm -rf .git
 npm install
